@@ -1,0 +1,129 @@
+/* mobile      */
+@media  (min-width:0px)and (max-width:480px)
+{
+    .navbarcontainer
+    {
+        display:flex;
+        flex-direction:column;
+        height: auto;
+
+     }
+     .navbar
+     {
+        height: auto;
+     }
+    .logo
+    {
+        margin-top: 20px;
+    }
+    .menu ul
+    {
+        display: flex;
+       
+        
+    }
+    .menu
+    {
+        height: auto;
+    }
+    .menu ul li
+    {
+        margin-top: 20px;
+        
+    }
+    .footer
+    {
+        height: 50px;
+    }
+
+    .gallerycontainer
+    {
+       display: flex;
+       flex-direction: column;
+       margin-top: -15%;
+    }
+    .gallerycontainer .img1
+{
+    width: 90%;
+    height: 300px;
+    margin-top: 5px 0px;
+    align-items: center;
+   
+}
+.img2
+{
+    height: 300px;
+    width: 100%;
+}
+.img2 img
+{
+    height: 300px;
+    width: 100%;
+
+}
+.img2 img:hover{
+    height: 300px;
+}
+
+}
+
+/* teblate */
+@media (min-width:481px) and (max-width:768px)
+{
+    .gallerycontainer
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: -5%;
+    }
+    .gallerycontainer .img1
+    {
+        width: 46.5%;
+        height: 300px;
+        margin-top: 5px 0px;
+        align-items: center;
+       
+    }
+    .img2
+    {
+        height: 300px;
+        width: 100%;
+    }
+    .img2 img
+    {
+        height: 300px;
+        width: 100%;
+    
+    }
+    .img2 img:hover{
+        height: 300px;
+    }
+    
+
+}
+
+/* computer */
+@media (min-width:769px) and (max-width:1024)
+{
+    .gallerycontainer .img1
+{
+    width: 33.33%;
+    height: 400px;
+  
+    margin: 20px 0px;
+}
+.img2
+{
+    height:400px ;
+    width: 90%;
+    
+}
+.img2 img
+{
+    height:400px ;
+    width: 100%;
+
+}
+
+}

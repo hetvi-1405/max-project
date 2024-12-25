@@ -1,0 +1,82 @@
+/* mobile      */
+@media (min-width:0px) and (max-width:480px)
+{
+    .navbarcontainer
+    {
+        display:flex;
+        flex-direction:column;
+        height: auto;
+
+     }
+     .navbar
+     {
+        height: auto;
+     }
+    .logo
+    {
+        margin-top: 20px;
+    }
+    .menu ul
+    {
+        display: flex;
+       
+        
+    }
+    .menu
+    {
+        height: auto;
+    }
+    .menu ul li
+    {
+        margin-top: 20px;
+        
+    }
+    .footer
+    {
+        height: 50px;
+    }
+    .scrollcontainer img
+    {
+        height: 350px;
+        width: 100%;
+        margin-top: -10%;
+       
+    }
+    .scrollcontainer{
+        width: 80%;
+    }
+
+}
+
+/* teblate */
+@media (min-width:481px) and (max-width:768px)
+{
+    .scrollcontainer
+    {
+        width: 70%;
+
+    }
+    .scrollcontainer img 
+    {
+        height: 380px;
+        width: 100%;
+        
+    }
+}
+
+
+/* computer */
+@media (min-width:769) and (max-width:1024px)
+{
+    .scrollcontainer
+    {
+        width: 70%;
+
+    }
+    .scrollcontainer img 
+    {
+        height: 480px;
+        width: 100%;
+        
+    }
+}

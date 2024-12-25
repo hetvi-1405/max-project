@@ -1,0 +1,94 @@
+/* mobile      */
+@media (min-width:0px) and (max-width:480px)
+{
+    .navbarcontainer
+    {
+        display:flex;
+        flex-direction:column;
+        height: auto;
+
+     }
+     .navbar
+     {
+        height: auto;
+     }
+    .logo
+    {
+        margin-top: 20px;
+    }
+    .menu ul
+    {
+        display: flex;
+       
+        
+    }
+    .menu
+    {
+        height: auto;
+    }
+    .menu ul li
+    {
+        margin-top: 20px;
+        
+    }
+    .textcontainer
+    {
+        font-size: 20px;
+        letter-spacing: 10px;
+    } 
+    .boxcontainer
+    {
+        width: 99%;
+        height: 1100px;
+    }
+    .box3
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer
+    {
+        position: absolute;
+        top: 1350px;
+    }
+}
+/* teblate */
+@media (min-width:481px)and (max-width:768px)
+{
+    .navbarcontainer
+    {
+        display:flex;
+        flex-direction:column;
+        height: auto;
+
+     }
+     .navbar
+     {
+        height: auto;
+     }
+    .logo
+    {
+        margin-top: 20px;
+    }
+    .menu ul
+    {
+        display: flex;
+       
+        
+    }
+    .menu
+    {
+        height: auto;
+    }
+    .menu ul li
+    {
+        margin-top: 20px;
+        padding-left: 40px;
+        
+    }
+    .textcontainer
+    {
+        font-size: 20px;
+        letter-spacing: 10px;
+    }
+}
